@@ -1,0 +1,55 @@
+body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-chip:hover {
+            background-color: #10b981 !important;
+            color: white !important;
+        }
+
+        .search-bar:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.5);
+        }
+
+        .cart-notification {
+            animation: bounce 0.5s;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #10b981 0%, #047857 100%);
+        }
+
+        .deal-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .fresh-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #3b82f6;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
